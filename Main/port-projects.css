@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    font-family: 'poppins';
+}
+body {
+  background-image: url('https://i.pinimg.com/1200x/d3/7e/3e/d37e3ebd66d484d4af0c6e5750548248.jpg');
+  background-size: cover;          
+  background-repeat: no-repeat;   
+  background-attachment: fixed;    
+  background-position: center;     
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 100;
+   
+
+}
+nav{
+    
+    padding: 2px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+    border: 2px silver solid;
+    border-radius: 50px;
+    position: relative;
+    top: 5px;
+    width: 94vw;
+    z-index: 0;
+    background-color: rgba(13, 13, 13, 0.693);
+    
+
+}
+.home a{
+    color: silver;
+    text-decoration: none;
+}
+.skills a{
+    color: silver;
+    text-decoration: none;
+}
+.aboutme a{
+    color: silver;
+    text-decoration: none;
+}
+.logo{
+    color: rgb(186, 66, 66);
+    font-size: 30px;
+    font-weight: bold;
+}
+#nav{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    
+    
+}
+.nav a{
+    text-decoration: none;
+    color: silver;
+}
+#nav a:hover{
+    font-size: 16.5px;
+    color: rgb(186, 66, 66);
+}
+.home a:hover{
+    font-size: 16.5px;
+    color: rgb(186, 66, 66);
+}
